@@ -1,6 +1,6 @@
 # Currency-Classification-and-Recognition
 This repository is for recognition of fake and real currency and classifying the real currency. 
-Fake or Real Currency Detection using Inception V3 Training Model
+Fake or Real Currency Detection using Inception V3 Training Model and VGG16 for classification purpose.
 # Motivation and Goal
 The purpose of this project is to develop a robust system for detecting fake or real currency using the Inception V3 and VGG16 training model and is to accurately distinguish between genuine and counterfeit banknotes, thereby aiding in the detection of counterfeit currency and enhancing financial security. Our goal is to build an efficient and accurate solution that can assist financial institutions, businesses, and law enforcement agencies in quickly identifying counterfeit currency , thus enhancing security measures and reducing financial losses.
 
