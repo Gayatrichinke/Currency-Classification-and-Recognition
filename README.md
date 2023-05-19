@@ -39,6 +39,12 @@ For interface run command -streamlit run app.py
 In our model for fake and real currency recognition we achieved accuracy of 98% for training and 88% for testing using Inception V3 pre-trained model.
 For currency classification using VGG16 we achieved accuracy of 85% for training and 80% for validation .
 
+First we created a scratch cnn model where we obtained accuracy of 70% for fake and real currency recognition and for classification we obtained accuracy of 68% .Since the accuracy was low the prediction was wrong and to avoid this and improve our model's performannce we used pre-trained models.
+
+We choose this model because when we tried with MobileNet and Resnet 50 it gave us low accuracy compared to VGG16 and Inception V3 .
+Therefore we built our final model using this pre trained models.
+
+
 The performance of the currency detection and classification system heavily relies on the quality and diversity of the dataset used for training. A well-curated dataset with a sufficient number of genuine and counterfeit currency images is crucial for achieving high accuracy. Additionally, the detection accuracy may vary depending on factors such as image quality, lighting conditions, and the complexity of counterfeit techniques.
 
 To evaluate the performance of the trained model, we suggest using metric as accuracy. These metrics can provide insights into the model's ability to correctly recognize real and fake currency instances and classify it. Regular evaluation and continuous improvement of the model can lead to enhanced detection accuracy and robustness.
